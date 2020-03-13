@@ -1,0 +1,59 @@
+.content
+{
+    float:left;
+}
+body
+{
+    background-color:lightgray;
+}
+.topbar
+{
+    height:180px;
+    width:1920px;
+    background-color:black;
+    margin-top:-10px;
+    margin-left:-10px;
+    background-image:url("image.jpg");
+    background-image:fill;
+}
+.left
+{
+    width:25%;
+    height:1080px;
+    margin-left:-10px;
+    background-color:black;
+    color:white;
+}
+.mypic
+{
+    width:184px;
+    height: 400px;
+    background-image:url("mypic.jpeg");
+}
+{
+    height: 
+}
+.right
+{
+    width:75%;
+    height:1080px;
+    margin-right:-4px;
+    background-color:lightgray
+}
+
+#header
+{
+    letter-spacing:3px;
+    text-align:center;
+    font-size: 24px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#details-contact
+{
+    text-align:center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.skills
+{
+    padding-top:10px;
+}
