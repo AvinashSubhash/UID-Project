@@ -26,8 +26,9 @@ body
 }
 .mypic
 {
-    width:184px;
-    height: 400px;
+   width:85%;
+   height:350px;
+   margin-left:20px;
     background-image:url("mypic.jpeg");
 }
 {
