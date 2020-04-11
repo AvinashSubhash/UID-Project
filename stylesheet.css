@@ -4,42 +4,58 @@
 }
 body
 {
-    background-color:lightgray;
+    background-color:white;
+
 }
 .topbar
 {
-    height:180px;
-    width:1920px;
+    height:280px;
+    width:1298px;
     background-color:black;
-    margin-top:-10px;
-    margin-left:-10px;
+    
+    
+}
+.image{
+    width:100%;
+    height:100%;
     background-image:url("image.jpg");
     background-image:fill;
+    opacity:1;
+}
+.topbar:hover
+{
+    background-blend-mode:30;
+    ;
 }
 .left
 {
-    width:25%;
-    height:1080px;
-    margin-left:-10px;
-    background-color:black;
+    width:379px;
+    height:1700px;
+    
+    background-color:rgb(61, 60, 60);
+    background-image:url("left_back.jpg");
+
     color:white;
 }
 .mypic
 {
-   width:85%;
-   height:350px;
-   margin-left:20px;
+   width:60%;
+   height:324px;
+   margin-left:70px;
+   margin-top:30px;
+   margin-bottom:30px;
     background-image:url("mypic.jpeg");
 }
-{
-    height: 
-}
+
 .right
 {
-    width:75%;
-    height:1080px;
+    width:919px;
+    height:1700px;
     margin-right:-4px;
-    background-color:lightgray
+   
+
+    background-color:lightgray;
+    color:black;
 }
 
 #header
@@ -48,6 +64,7 @@ body
     text-align:center;
     font-size: 24px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration:underline 2px grey;
 }
 #details-contact
 {
@@ -57,4 +74,225 @@ body
 .skills
 {
     padding-top:10px;
+    margin-bottom:370px;
+    
 }
+.name
+{
+    padding-left:910px;
+    margin-top:-150px;
+    font-size:60px;
+    font-family:'Courier New', Courier, monospace;
+    color:black;
+    letter-spacing:4px;
+}
+.sub-name
+{
+    padding-left:910px;
+    margin-top:-60px;
+    font-size:20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.heading{
+    font-size:20px;
+    letter-spacing:2px;
+    MARGIN-LEFT:20PX;
+    padding-bottom:10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.sub-heading
+{
+    font-size:24px;
+    margin-left:20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:black;
+    opacity:0.82;
+
+}
+
+
+.answer
+{
+    font-size:24px;
+    margin-top:0px;
+    margin-left:20px;
+    color:black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity:0.82;
+}
+.python_bar
+{
+
+    margin-left:90px;
+    margin-right:30px;
+    height:10px;
+    width:200px;
+    border:1px solid black;
+
+}
+.python_bar_per
+{
+    height:10px;
+    width:80px;
+    background-color:black;
+
+    margin-top:-27px;
+    margin-left:90px;
+}
+
+.cpp_bar
+{
+    margin-left:90px;
+    margin-right:30px;
+    height:10px;
+    width:200px;
+    border:1px solid black; 
+}
+.cpp_bar_per
+{
+    height:11px;
+    width:110px;
+    background-color:black;
+    
+    margin-top:-27px;
+    margin-left:90px;
+}
+.c_bar
+{
+    margin-left:90px;
+    margin-right:30px;
+    height:10px;
+    width:200px;
+    border:1px solid black; 
+}
+.c_bar_per
+{
+    height:10px;
+    width:95px;
+    background-color:black;
+    
+    margin-top:-27px;
+    margin-left:90px;
+}
+.js_bar
+{
+    margin-left:90px;
+    margin-right:30px;
+    height:10px;
+    width:200px;
+    border:1px solid black; 
+}
+.js_bar_per
+{
+    height:10px;
+    width:50px;
+    background-color:black;
+    
+    margin-top:-27px;
+    margin-left:90px;
+}
+.kotlin_bar
+{
+    margin-left:90px;
+    margin-right:30px;
+    height:10px;
+    width:200px;
+    border:1px solid black; 
+}
+.kotlin_bar_per
+{
+    height:10px;
+    width:150px;
+    background-color:black;
+    
+    margin-top:-27px;
+    margin-left:90px;
+}
+.go_bar
+{
+    margin-left:90px;
+    margin-right:30px;
+    height:10px;
+    width:200px;
+    border:1px solid black; 
+}
+.go_bar_per
+{
+    height:10px;
+    width:170px;
+    background-color:black;
+    
+    margin-top:-27px;
+    margin-left:90px;
+}
+.about_me
+{
+    margin-bottom:80px;
+}
+.mypic:hover
+{
+    border:2px solid black;
+}
+.about_me:hover,.contact-details:hover
+{
+    border:2px solid white;
+    background-color:black;
+    color:white;
+    border-radius:3px;
+    margin:0 20px;
+}
+.desig_bar
+{
+    width:165px;
+    height:15px;
+    margin-left:1100px;
+    margin-top:-40px;
+    background-color:black;
+    
+}
+
+.column
+{
+    float:left;
+    margin-left:-30px;
+}
+.lang_logo
+{
+    width:60px;
+    height:60px;
+    margin-left:120px;
+}
+.go
+{
+    width:150px;
+    height:60px;
+    margin-left:100px;
+}
+
+.prof_skills
+{
+    margin-top:20px;
+}
+.media
+{
+    width:60px;
+    height:60px;
+    margin-left:50px;
+}
+.facebook
+{
+    margin-top:60px;
+    margin-left:145px;
+}
+.github
+{
+    padding-top:40px;
+    margin-left:40px;
+}
+.linkedin
+{
+    margin-left:20px;
+}
+
+
+
